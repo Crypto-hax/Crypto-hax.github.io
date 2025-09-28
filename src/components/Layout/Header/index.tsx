@@ -75,6 +75,25 @@ const Header: React.FC = () => {
         sticky ? " shadow-lg bg-darkmode pt-5" : "shadow-none md:pt-14 pt-5"
       }`}
     >
+      {/* Google AdSense Ad Unit */}
+      <div className="w-full bg-gray-100 dark:bg-gray-800 py-1">
+        <ins 
+          className="adsbygoogle block"
+          style={{ display: 'block' }}
+          data-ad-client="ca-pub-6034738398116603"
+          data-ad-slot="1796962709"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        />
+      </div>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          `,
+        }}
+      />
+      
       <div className="lg:py-0 py-2">
         <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md flex items-center justify-between px-4">
           <Logo />

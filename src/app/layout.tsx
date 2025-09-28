@@ -14,6 +14,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <script 
+          async 
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6034738398116603"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className={`${font.className}`}>
         <ThemeProvider
           attribute="class"
